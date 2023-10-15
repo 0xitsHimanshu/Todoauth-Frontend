@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import "./styles/app.scss"
 
-export const server = ""//provide the backend link here
+export const server = "https://todobackend-20xw.onrender.com/api/v1"//provide the backend link here
 
 export const Context = createContext({ isAuthenticated: false });
 
