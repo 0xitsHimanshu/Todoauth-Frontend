@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { Context, server } from "../main";
 import { toast } from "react-hot-toast";
-import TodoItem from "../components/TodoItem";
+import TodoItem from "../components/Todoitem";
 import { Navigate } from "react-router-dom";
 
 const Home = () => {
